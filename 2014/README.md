@@ -247,6 +247,8 @@
 
 - [https://github.com/francescobrina/hfs-cve-2014-6287-exploit](https://github.com/francescobrina/hfs-cve-2014-6287-exploit) : ![starts](https://img.shields.io/github/stars/francescobrina/hfs-cve-2014-6287-exploit.svg) ![forks](https://img.shields.io/github/forks/francescobrina/hfs-cve-2014-6287-exploit.svg)
 
+- [https://github.com/wizardy0ga/THM-Steel_Mountain-CVE-2014-6287](https://github.com/wizardy0ga/THM-Steel_Mountain-CVE-2014-6287) : ![starts](https://img.shields.io/github/stars/wizardy0ga/THM-Steel_Mountain-CVE-2014-6287.svg) ![forks](https://img.shields.io/github/forks/wizardy0ga/THM-Steel_Mountain-CVE-2014-6287.svg)
+
 - [https://github.com/JoaZ94/rejjeto_hfs-rce-exploit-cve-2014-6287](https://github.com/JoaZ94/rejjeto_hfs-rce-exploit-cve-2014-6287) : ![starts](https://img.shields.io/github/stars/JoaZ94/rejjeto_hfs-rce-exploit-cve-2014-6287.svg) ![forks](https://img.shields.io/github/forks/JoaZ94/rejjeto_hfs-rce-exploit-cve-2014-6287.svg)
 
 - [https://github.com/rahisec/rejetto-http-file-server-2.3.x-RCE-exploit-CVE-2014-6287](https://github.com/rahisec/rejetto-http-file-server-2.3.x-RCE-exploit-CVE-2014-6287) : ![starts](https://img.shields.io/github/stars/rahisec/rejetto-http-file-server-2.3.x-RCE-exploit-CVE-2014-6287.svg) ![forks](https://img.shields.io/github/forks/rahisec/rejetto-http-file-server-2.3.x-RCE-exploit-CVE-2014-6287.svg)
