@@ -111534,9 +111534,9 @@ Only traffic directed to the affected system can be used to exploit this vulnera
 
 - [https://github.com/h3x0v3rl0rd/CVE-2015-6668](https://github.com/h3x0v3rl0rd/CVE-2015-6668) : ![starts](https://img.shields.io/github/stars/h3x0v3rl0rd/CVE-2015-6668.svg) ![forks](https://img.shields.io/github/forks/h3x0v3rl0rd/CVE-2015-6668.svg)
 
-- [https://github.com/jimdiroffii/CVE-2015-6668](https://github.com/jimdiroffii/CVE-2015-6668) : ![starts](https://img.shields.io/github/stars/jimdiroffii/CVE-2015-6668.svg) ![forks](https://img.shields.io/github/forks/jimdiroffii/CVE-2015-6668.svg)
-
 - [https://github.com/G01d3nW01f/CVE-2015-6668](https://github.com/G01d3nW01f/CVE-2015-6668) : ![starts](https://img.shields.io/github/stars/G01d3nW01f/CVE-2015-6668.svg) ![forks](https://img.shields.io/github/forks/G01d3nW01f/CVE-2015-6668.svg)
+
+- [https://github.com/jimdiroffii/CVE-2015-6668](https://github.com/jimdiroffii/CVE-2015-6668) : ![starts](https://img.shields.io/github/stars/jimdiroffii/CVE-2015-6668.svg) ![forks](https://img.shields.io/github/forks/jimdiroffii/CVE-2015-6668.svg)
 
 - [https://github.com/nika0x38/CVE-2015-6668](https://github.com/nika0x38/CVE-2015-6668) : ![starts](https://img.shields.io/github/stars/nika0x38/CVE-2015-6668.svg) ![forks](https://img.shields.io/github/forks/nika0x38/CVE-2015-6668.svg)
 
@@ -111761,6 +111761,8 @@ Only traffic directed to the affected system can be used to exploit this vulnera
 - [https://github.com/AndersonSingh/serialization-vulnerability-scanner](https://github.com/AndersonSingh/serialization-vulnerability-scanner) : ![starts](https://img.shields.io/github/stars/AndersonSingh/serialization-vulnerability-scanner.svg) ![forks](https://img.shields.io/github/forks/AndersonSingh/serialization-vulnerability-scanner.svg)
 
 - [https://github.com/nex1less/CVE-2015-4852](https://github.com/nex1less/CVE-2015-4852) : ![starts](https://img.shields.io/github/stars/nex1less/CVE-2015-4852.svg) ![forks](https://img.shields.io/github/forks/nex1less/CVE-2015-4852.svg)
+
+- [https://github.com/googlesky/CVE-2015-4852](https://github.com/googlesky/CVE-2015-4852) : ![starts](https://img.shields.io/github/stars/googlesky/CVE-2015-4852.svg) ![forks](https://img.shields.io/github/forks/googlesky/CVE-2015-4852.svg)
 
 ## CVE-2015-4843
  Unspecified vulnerability in Oracle Java SE 6u101, 7u85, and 8u60, and Java SE Embedded 8u51, allows remote attackers to affect confidentiality, integrity, and availability via unknown vectors related to Libraries.
