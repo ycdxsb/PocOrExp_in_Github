@@ -109837,13 +109837,15 @@ Only traffic directed to the affected system can be used to exploit this vulnera
 
 - [https://github.com/ElnurBDa/CVE-2016-10033](https://github.com/ElnurBDa/CVE-2016-10033) : ![starts](https://img.shields.io/github/stars/ElnurBDa/CVE-2016-10033.svg) ![forks](https://img.shields.io/github/forks/ElnurBDa/CVE-2016-10033.svg)
 
-- [https://github.com/Bajunan/CVE-2016-10033](https://github.com/Bajunan/CVE-2016-10033) : ![starts](https://img.shields.io/github/stars/Bajunan/CVE-2016-10033.svg) ![forks](https://img.shields.io/github/forks/Bajunan/CVE-2016-10033.svg)
-
 - [https://github.com/CAOlvchonger/CVE-2016-10033](https://github.com/CAOlvchonger/CVE-2016-10033) : ![starts](https://img.shields.io/github/stars/CAOlvchonger/CVE-2016-10033.svg) ![forks](https://img.shields.io/github/forks/CAOlvchonger/CVE-2016-10033.svg)
+
+- [https://github.com/Bajunan/CVE-2016-10033](https://github.com/Bajunan/CVE-2016-10033) : ![starts](https://img.shields.io/github/stars/Bajunan/CVE-2016-10033.svg) ![forks](https://img.shields.io/github/forks/Bajunan/CVE-2016-10033.svg)
 
 - [https://github.com/qwertyuiop12138/CVE-2016-10033](https://github.com/qwertyuiop12138/CVE-2016-10033) : ![starts](https://img.shields.io/github/stars/qwertyuiop12138/CVE-2016-10033.svg) ![forks](https://img.shields.io/github/forks/qwertyuiop12138/CVE-2016-10033.svg)
 
 - [https://github.com/blue-chocolates/CVE-2016-10033](https://github.com/blue-chocolates/CVE-2016-10033) : ![starts](https://img.shields.io/github/stars/blue-chocolates/CVE-2016-10033.svg) ![forks](https://img.shields.io/github/forks/blue-chocolates/CVE-2016-10033.svg)
+
+- [https://github.com/googlesky/CVE-2016-10033](https://github.com/googlesky/CVE-2016-10033) : ![starts](https://img.shields.io/github/stars/googlesky/CVE-2016-10033.svg) ![forks](https://img.shields.io/github/forks/googlesky/CVE-2016-10033.svg)
 
 - [https://github.com/alexander47777/CVE-2016-10033](https://github.com/alexander47777/CVE-2016-10033) : ![starts](https://img.shields.io/github/stars/alexander47777/CVE-2016-10033.svg) ![forks](https://img.shields.io/github/forks/alexander47777/CVE-2016-10033.svg)
 
@@ -109978,6 +109980,8 @@ Only traffic directed to the affected system can be used to exploit this vulnera
 ## CVE-2016-8735
  Remote code execution is possible with Apache Tomcat before 6.0.48, 7.x before 7.0.73, 8.x before 8.0.39, 8.5.x before 8.5.7, and 9.x before 9.0.0.M12 if JmxRemoteLifecycleListener is used and an attacker can reach JMX ports. The issue exists because this listener wasn't updated for consistency with the CVE-2016-3427 Oracle patch that affected credential types.
 
+- [https://github.com/googlesky/CVE-2016-8735](https://github.com/googlesky/CVE-2016-8735) : ![starts](https://img.shields.io/github/stars/googlesky/CVE-2016-8735.svg) ![forks](https://img.shields.io/github/forks/googlesky/CVE-2016-8735.svg)
+
 - [https://github.com/ianxtianxt/CVE-2016-8735](https://github.com/ianxtianxt/CVE-2016-8735) : ![starts](https://img.shields.io/github/stars/ianxtianxt/CVE-2016-8735.svg) ![forks](https://img.shields.io/github/forks/ianxtianxt/CVE-2016-8735.svg)
 
 ## CVE-2016-8655
@@ -109991,9 +109995,9 @@ Only traffic directed to the affected system can be used to exploit this vulnera
 
 - [https://github.com/scarvell/cve-2016-8655](https://github.com/scarvell/cve-2016-8655) : ![starts](https://img.shields.io/github/stars/scarvell/cve-2016-8655.svg) ![forks](https://img.shields.io/github/forks/scarvell/cve-2016-8655.svg)
 
-- [https://github.com/KosukeShimofuji/CVE-2016-8655](https://github.com/KosukeShimofuji/CVE-2016-8655) : ![starts](https://img.shields.io/github/stars/KosukeShimofuji/CVE-2016-8655.svg) ![forks](https://img.shields.io/github/forks/KosukeShimofuji/CVE-2016-8655.svg)
-
 - [https://github.com/WhatsWrongAndWhy/CVE-2016-8655](https://github.com/WhatsWrongAndWhy/CVE-2016-8655) : ![starts](https://img.shields.io/github/stars/WhatsWrongAndWhy/CVE-2016-8655.svg) ![forks](https://img.shields.io/github/forks/WhatsWrongAndWhy/CVE-2016-8655.svg)
+
+- [https://github.com/KosukeShimofuji/CVE-2016-8655](https://github.com/KosukeShimofuji/CVE-2016-8655) : ![starts](https://img.shields.io/github/stars/KosukeShimofuji/CVE-2016-8655.svg) ![forks](https://img.shields.io/github/forks/KosukeShimofuji/CVE-2016-8655.svg)
 
 ## CVE-2016-8636
  Integer overflow in the mem_check_range function in drivers/infiniband/sw/rxe/rxe_mr.c in the Linux kernel before 4.9.10 allows local users to cause a denial of service (memory corruption), obtain sensitive information from kernel memory, or possibly have unspecified other impact via a write or read request involving the "RDMA protocol over infiniband" (aka Soft RoCE) technology.
@@ -110148,6 +110152,11 @@ Only traffic directed to the affected system can be used to exploit this vulnera
  Ubiquiti UniFi Video before 3.8.0 for Windows uses weak permissions for the installation directory, which allows local users to gain SYSTEM privileges via a Trojan horse taskkill.exe file.
 
 - [https://github.com/CybermonkX/CVE-2016-6914-UniFiVideo-LPE](https://github.com/CybermonkX/CVE-2016-6914-UniFiVideo-LPE) : ![starts](https://img.shields.io/github/stars/CybermonkX/CVE-2016-6914-UniFiVideo-LPE.svg) ![forks](https://img.shields.io/github/forks/CybermonkX/CVE-2016-6914-UniFiVideo-LPE.svg)
+
+## CVE-2016-6816
+ The code in Apache Tomcat 9.0.0.M1 to 9.0.0.M11, 8.5.0 to 8.5.6, 8.0.0.RC1 to 8.0.38, 7.0.0 to 7.0.72, and 6.0.0 to 6.0.47 that parsed the HTTP request line permitted invalid characters. This could be exploited, in conjunction with a proxy that also permitted the invalid characters but with a different interpretation, to inject data into the HTTP response. By manipulating the HTTP response the attacker could poison a web-cache, perform an XSS attack and/or obtain sensitive information from requests other then their own.
+
+- [https://github.com/googlesky/CVE-2016-6816](https://github.com/googlesky/CVE-2016-6816) : ![starts](https://img.shields.io/github/stars/googlesky/CVE-2016-6816.svg) ![forks](https://img.shields.io/github/forks/googlesky/CVE-2016-6816.svg)
 
 ## CVE-2016-6812
  The HTTP transport module in Apache CXF prior to 3.0.12 and 3.1.x prior to 3.1.9 uses FormattedServiceListWriter to provide an HTML page which lists the names and absolute URL addresses of the available service endpoints. The module calculates the base URL using the current HttpServletRequest. The calculated base URL is used by FormattedServiceListWriter to build the service endpoint absolute URLs. If the unexpected matrix parameters have been injected into the request URL then these matrix parameters will find their way back to the client in the services list page which represents an XSS risk to the client.
@@ -110423,23 +110432,25 @@ Only traffic directed to the affected system can be used to exploit this vulnera
 
 - [https://github.com/zakariamaaraki/Dirty-COW-CVE-2016-5195-](https://github.com/zakariamaaraki/Dirty-COW-CVE-2016-5195-) : ![starts](https://img.shields.io/github/stars/zakariamaaraki/Dirty-COW-CVE-2016-5195-.svg) ![forks](https://img.shields.io/github/forks/zakariamaaraki/Dirty-COW-CVE-2016-5195-.svg)
 
+- [https://github.com/googlesky/CVE-2016-5195](https://github.com/googlesky/CVE-2016-5195) : ![starts](https://img.shields.io/github/stars/googlesky/CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/googlesky/CVE-2016-5195.svg)
+
 - [https://github.com/ldenevi/CVE-2016-5195](https://github.com/ldenevi/CVE-2016-5195) : ![starts](https://img.shields.io/github/stars/ldenevi/CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/ldenevi/CVE-2016-5195.svg)
 
 - [https://github.com/KosukeShimofuji/CVE-2016-5195](https://github.com/KosukeShimofuji/CVE-2016-5195) : ![starts](https://img.shields.io/github/stars/KosukeShimofuji/CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/KosukeShimofuji/CVE-2016-5195.svg)
+
+- [https://github.com/KongQBin/CVE-2016-5195](https://github.com/KongQBin/CVE-2016-5195) : ![starts](https://img.shields.io/github/stars/KongQBin/CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/KongQBin/CVE-2016-5195.svg)
 
 - [https://github.com/fei9747/CVE-2016-5195](https://github.com/fei9747/CVE-2016-5195) : ![starts](https://img.shields.io/github/stars/fei9747/CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/fei9747/CVE-2016-5195.svg)
 
 - [https://github.com/gogooma125732/CVE-2016-5195](https://github.com/gogooma125732/CVE-2016-5195) : ![starts](https://img.shields.io/github/stars/gogooma125732/CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/gogooma125732/CVE-2016-5195.svg)
 
-- [https://github.com/KongQBin/CVE-2016-5195](https://github.com/KongQBin/CVE-2016-5195) : ![starts](https://img.shields.io/github/stars/KongQBin/CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/KongQBin/CVE-2016-5195.svg)
-
 - [https://github.com/vudangducminh/CVE-2016-5195](https://github.com/vudangducminh/CVE-2016-5195) : ![starts](https://img.shields.io/github/stars/vudangducminh/CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/vudangducminh/CVE-2016-5195.svg)
 
 - [https://github.com/ASUKA39/CVE-2016-5195](https://github.com/ASUKA39/CVE-2016-5195) : ![starts](https://img.shields.io/github/stars/ASUKA39/CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/ASUKA39/CVE-2016-5195.svg)
 
-- [https://github.com/ramahmdr/dirtycow](https://github.com/ramahmdr/dirtycow) : ![starts](https://img.shields.io/github/stars/ramahmdr/dirtycow.svg) ![forks](https://img.shields.io/github/forks/ramahmdr/dirtycow.svg)
-
 - [https://github.com/xpcmdshell/derpyc0w](https://github.com/xpcmdshell/derpyc0w) : ![starts](https://img.shields.io/github/stars/xpcmdshell/derpyc0w.svg) ![forks](https://img.shields.io/github/forks/xpcmdshell/derpyc0w.svg)
+
+- [https://github.com/ramahmdr/dirtycow](https://github.com/ramahmdr/dirtycow) : ![starts](https://img.shields.io/github/stars/ramahmdr/dirtycow.svg) ![forks](https://img.shields.io/github/forks/ramahmdr/dirtycow.svg)
 
 - [https://github.com/sandeeparth07/CVE-2016_5195-vulnarability](https://github.com/sandeeparth07/CVE-2016_5195-vulnarability) : ![starts](https://img.shields.io/github/stars/sandeeparth07/CVE-2016_5195-vulnarability.svg) ![forks](https://img.shields.io/github/forks/sandeeparth07/CVE-2016_5195-vulnarability.svg)
 
@@ -110455,9 +110466,9 @@ Only traffic directed to the affected system can be used to exploit this vulnera
 
 - [https://github.com/elhaddadalaa788-alt/kernel-exploit-dirtycow-project-subm](https://github.com/elhaddadalaa788-alt/kernel-exploit-dirtycow-project-subm) : ![starts](https://img.shields.io/github/stars/elhaddadalaa788-alt/kernel-exploit-dirtycow-project-subm.svg) ![forks](https://img.shields.io/github/forks/elhaddadalaa788-alt/kernel-exploit-dirtycow-project-subm.svg)
 
-- [https://github.com/vinspiert/scumjrs](https://github.com/vinspiert/scumjrs) : ![starts](https://img.shields.io/github/stars/vinspiert/scumjrs.svg) ![forks](https://img.shields.io/github/forks/vinspiert/scumjrs.svg)
-
 - [https://github.com/1equeneRise/scumjr9](https://github.com/1equeneRise/scumjr9) : ![starts](https://img.shields.io/github/stars/1equeneRise/scumjr9.svg) ![forks](https://img.shields.io/github/forks/1equeneRise/scumjr9.svg)
+
+- [https://github.com/vinspiert/scumjrs](https://github.com/vinspiert/scumjrs) : ![starts](https://img.shields.io/github/stars/vinspiert/scumjrs.svg) ![forks](https://img.shields.io/github/forks/vinspiert/scumjrs.svg)
 
 - [https://github.com/theo543/OSDS_Paper_CVE-2016-5195](https://github.com/theo543/OSDS_Paper_CVE-2016-5195) : ![starts](https://img.shields.io/github/stars/theo543/OSDS_Paper_CVE-2016-5195.svg) ![forks](https://img.shields.io/github/forks/theo543/OSDS_Paper_CVE-2016-5195.svg)
 
@@ -110644,6 +110655,8 @@ Only traffic directed to the affected system can be used to exploit this vulnera
 - [https://github.com/m3terpreter/CVE-2016-4437](https://github.com/m3terpreter/CVE-2016-4437) : ![starts](https://img.shields.io/github/stars/m3terpreter/CVE-2016-4437.svg) ![forks](https://img.shields.io/github/forks/m3terpreter/CVE-2016-4437.svg)
 
 - [https://github.com/xk-mt/CVE-2016-4437](https://github.com/xk-mt/CVE-2016-4437) : ![starts](https://img.shields.io/github/stars/xk-mt/CVE-2016-4437.svg) ![forks](https://img.shields.io/github/forks/xk-mt/CVE-2016-4437.svg)
+
+- [https://github.com/googlesky/CVE-2016-4437](https://github.com/googlesky/CVE-2016-4437) : ![starts](https://img.shields.io/github/stars/googlesky/CVE-2016-4437.svg) ![forks](https://img.shields.io/github/forks/googlesky/CVE-2016-4437.svg)
 
 - [https://github.com/CyberCTF/vulhub-shiro-cve-2016-4437](https://github.com/CyberCTF/vulhub-shiro-cve-2016-4437) : ![starts](https://img.shields.io/github/stars/CyberCTF/vulhub-shiro-cve-2016-4437.svg) ![forks](https://img.shields.io/github/forks/CyberCTF/vulhub-shiro-cve-2016-4437.svg)
 
