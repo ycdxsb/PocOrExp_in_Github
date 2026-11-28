@@ -239,7 +239,7 @@ def init():
         line = line.strip()
         if line.startswith("token:"):
             tokens.append(line.split(":")[-1])
-    logger.info(tokens)
+    logger.info("Loaded {} tokens", len(tokens))
     if(len(tokens)==0):
         logger.error("NO TOKEN IN TOKEN FILE")
         exit(-1)
